@@ -1,0 +1,46 @@
+//map
+$button-sizes: (
+    small: 20px,
+    medium: 30px,
+    large: 40px
+);
+
+@each $size, $value in $button-sizes{
+    .button-#{$size}{
+        font-size: $value;
+        padding: $value / 2;
+    }
+    // .button-small{
+    //     font-size: 20px;
+    //     padding: 10px;
+    // }
+    // .button-medium{
+    //     font-size: 30px;
+    //     padding: 15px;
+    // }
+    // .button-large{
+    //     font-size: 40px;
+    //     padding: 20px;
+    // }
+}
+
+@each $color in blue, orange, yellow{
+    .#{$color}{
+        color: $color;
+    }
+    // .blue{
+    //     color:blue
+    // }
+    // .orange{
+    //     color: orange;
+    // }
+    // .yellow{
+    //     color: yellow;
+    // }
+}
+
+@each $width in 10,150,30,40,50,60,70,80,90,100 {
+    .l-#{$width}{
+        width: #{$width}px;
+    }
+}

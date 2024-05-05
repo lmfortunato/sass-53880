@@ -1,0 +1,17 @@
+//variables
+$color-principal : #E8C57E;
+
+//lists
+$colores:
+#E8C57E,
+#ffffff,
+#1E1E1E,
+deepskyblue;
+
+//maps
+$boton-primario: (
+    bg-primario: #E8C57E,
+    text-primario: #1E1E1E,
+    width-primario: 150px,
+    border-primario: 2px solid #1E1E1E
+);

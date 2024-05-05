@@ -1,0 +1,4 @@
+  1. npm init -y
+  2. npm install -g sass
+  3. npm install -D nodemon
+  4. sass --watch scss/style.scss css/style.css
